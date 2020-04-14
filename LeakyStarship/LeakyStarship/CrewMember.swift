@@ -11,7 +11,7 @@ import Foundation
 class CrewMember
 {
     let name:String
-    var captain:Captain
+    unowned var captain:Captain
     
     init(name: String, captain: Captain)
     {
